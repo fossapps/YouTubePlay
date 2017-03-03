@@ -1,0 +1,9 @@
+.YTP-Queue{
+    float: right;
+    padding: 5px;
+}
+.YTP-Queue:hover{
+    color: #167ac6;
+    font-style: italic;
+    text-decoration: underline;
+}

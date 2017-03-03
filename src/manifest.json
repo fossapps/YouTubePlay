@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Play",
+  "description": "Queue or Stack YouTube songs",
+  "version": "0.0.0.1",
+  "background": {
+    "scripts": [
+      "background.bundle.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "YouTube Play",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://youtube.com/*", "*://www.youtube.com/*"],
+      "css": [],
+      "js": ["content.bundle.js"]
+    }
+  ]
+}
