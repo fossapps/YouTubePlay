@@ -34,4 +34,9 @@ As it states, it's a work in progress. It has only implementation for watch page
 aren't any queue buttons, just hit refresh, and you'll see queue links near videos on right. When you click on them, and
 click on Extension Icon near address bar, you should see queue displayed there.
 
+## Special thanks to PhpStorm
+I thought I pushed to github and deleted the local repository so that my readme works exactly the way it says it works,
+but to my surprise, pushing to github failed unexpectedly. And my entire project was gone. But PhpStorm came to rescue
+and restored from it's local history.
+
 License: GPL
