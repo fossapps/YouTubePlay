@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "validate-commit-msg",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack && cp ./src/manifest.json ./dist/ && cp ./src/popup.html ./dist/",
     "commitmsg": "validate-commit-msg",
-    "prepush": "npm run build -s"
+    "prepush": "npm run build -s",
+    "semantic-release": "semantic-release pre && semantic-release post"
   },
   "author": "",
   "license": "ISC",
