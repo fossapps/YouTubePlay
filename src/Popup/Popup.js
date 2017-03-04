@@ -1,5 +1,5 @@
 import React from 'react';
-import render from 'react-dom';
+import ReactDOM from 'react-dom';
 import {Store} from 'react-chrome-redux';
 import App from './App';
 import Config from '../Config';
@@ -10,6 +10,6 @@ const proxyStore = new Store({
     portName: Config.getPortName()
 });
 
-render(
+ReactDOM.render(
     <App store={proxyStore} />
 , document.getElementById('app'));
