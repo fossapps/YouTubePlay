@@ -3,11 +3,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack && cp ./src/manifest.json ./dist/ && cp ./src/popup.html ./dist/",
     "commitmsg": "validate-commit-msg",
+    "lint": "eslint",
     "prepush": "npm run build -s",
-    "semantic-release": "semantic-release pre && semantic-release post"
+    "semantic-release": "semantic-release pre && semantic-release post",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
