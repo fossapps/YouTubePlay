@@ -4,9 +4,9 @@ const webpack = require('webpack');
 const options = {
     context: path.resolve(__dirname, './src'),
     entry: {
-        popup: './Popup.js',
-        background: './Background.js',
-        content: './Content.js'
+        popup: './Popup/Popup.js',
+        background: './Background/Background.js',
+        content: './Content/Content.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),

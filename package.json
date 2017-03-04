@@ -3,7 +3,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack && cp ./src/manifest.json ./dist/ && cp ./src/popup.html ./dist/",
+    "build": "webpack && cp ./src/manifest.json ./dist/ && cp ./src/Popup/popup.html ./dist/",
     "commitmsg": "validate-commit-msg",
     "lint": "eslint src",
     "precommit": "npm run lint",
