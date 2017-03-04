@@ -1,4 +1,3 @@
-import React from 'react';
 import {Store} from 'react-chrome-redux';
 import Config from './Config';
 import './Content.css';
@@ -27,7 +26,6 @@ observe.onFinished(() => {
     store.dispatch({type: 'VIDEO_FINISHED', payload: {link: window.location.href}});
     store.subscribe(() => {
         let newVideo = store.getState().VideoManager[0];
-        console.log(newVideo);
         if(newVideo && newVideo.link !== window.location.href){
             window.location = newVideo.link;
         }
