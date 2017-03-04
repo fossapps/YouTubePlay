@@ -27,3 +27,6 @@ export default class App extends React.Component{
         return this.state.VideoManager.length ? this.mapVideos() : App.renderNoVideos();
     }
 }
+App.propTypes = {
+    store: React.PropTypes.object.isRequired
+};

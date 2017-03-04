@@ -3,10 +3,10 @@ export default class DetectVideoFinished {
     finishCallback;
     interval;
     constructor(){
-        this.interval = setInterval(() => {
+        this.interval = window.setInterval(() => {
             if (document.querySelector(".ytp-play-button.ytp-button[title=Replay]") != null) {
                 this.finishCallback();
-                clearInterval(this.interval);
+                window.clearInterval(this.interval);
             }
         }, Config.getPortName());
     }
