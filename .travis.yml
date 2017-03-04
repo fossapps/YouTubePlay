@@ -7,5 +7,6 @@ cache:
   - /usr/local/lib/node_modules
 script:
   - npm run build
+  - npm run lint
 after_success:
   - npm run semantic-release
