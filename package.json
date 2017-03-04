@@ -29,6 +29,7 @@
     "eslint": "^3.17.0",
     "eslint-plugin-react": "^6.10.0",
     "husky": "^0.13.2",
+    "last-release-git": "0.0.2",
     "semantic-release": "^6.3.2",
     "style-loader": "^0.13.2",
     "validate-commit-msg": "^2.11.1",
@@ -36,6 +37,9 @@
     "webpack-dev-server": "^2.4.1"
   },
   "version": "0.0.0-development",
+  "release": {
+    "getLastRelease": "last-release-git"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/fossapps/YouTubePlay.git"
