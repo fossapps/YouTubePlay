@@ -1,6 +1,7 @@
 # YouTube Playlist
 This is a legacy work in progress code I just wrote to build a chrome extension using react and redux
 
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)[![Build Status](https://img.shields.io/travis/fossapps/YouTubePlay/master.svg?style=flat-square)](https://travis-ci.org/fossapps/YouTubePlay)[![devDependencies Status](https://david-dm.org/fossapps/YouTubePlay/dev-status.svg?style=flat-square)](https://david-dm.org/fossapps/YouTubePlay?type=dev)[![dependencies Status](https://david-dm.org/fossapps/YouTubePlay/status.svg?style=flat-square)](https://david-dm.org/fossapps/YouTubePlay)
 ## What and Why?
 When I'm listening to songs on YouTube, I can't make a quick list on the fly according to my taste. This is a plugin
 which adds a link for queuing a video, so when the current video ends, instead of going with the normal flow, it plays
