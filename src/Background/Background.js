@@ -2,7 +2,7 @@ import {createStore} from 'redux';
 import {wrapStore} from 'react-chrome-redux';
 
 import rootReducer from './Reducers';
-import Config from './Config';
+import Config from '../Config';
 
 const store = createStore(rootReducer, {});
 

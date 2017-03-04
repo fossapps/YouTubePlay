@@ -1,5 +1,5 @@
 import {Store} from 'react-chrome-redux';
-import Config from './Config';
+import Config from '../Config';
 import './Content.css';
 import DetectVideoFinished from './DetectVideoFinished';
 const store = new Store({portName: Config.getPortName()});
